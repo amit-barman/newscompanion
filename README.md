@@ -1,1 +1,1 @@
-# newscompanion
+# News Companion
