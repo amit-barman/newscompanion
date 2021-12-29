@@ -1,4 +1,4 @@
-# News Companion
+# 📰 News Companion
 ----------------
 News companion is a Daily News Android app written in java.
 
