@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="4dp"
+    app:cardBackgroundColor="@color/greay_2"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/idIVNews"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop" />
+        <TextView
+            android:id="@+id/idIVNewsHeading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/idIVNews"
+            android:textColor="@color/MtBlack"
+            android:text="New Heading"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:padding="3dp"
+            android:maxLines="2"
+            android:layout_margin="3dp" />
+        <TextView
+            android:id="@+id/idIVSubtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sub Heading"
+            android:layout_below="@id/idIVNewsHeading"
+            android:textColor="@color/black"
+            android:maxLines="3"
+            android:layout_margin="3dp"
+            android:padding="3dp" />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
