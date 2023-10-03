@@ -1,6 +1,6 @@
 # 📰 News Companion
 ----------------
-News companion is a Simple and Easy to use Daily News application for Android Mobile Devices, its written in java.
+News companion is a daily news Android application with multiple news categories, built on Java..
 
 ## Screenshot
 
